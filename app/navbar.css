@@ -1,0 +1,38 @@
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 46px;
+}
+
+.navCentre {
+    gap: 10px;
+}
+
+.navRight {
+    gap: 5px;
+    padding-right: 5px;
+}
+
+.navRight a {
+    height: 32px;
+}
+
+a {
+    font-family: "Arial", sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    color: #6e6e6e;
+}
