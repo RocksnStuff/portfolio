@@ -1,0 +1,6 @@
+.scrollBar {
+    height: 2px;
+    background-color: #6e6e6e;
+    position: fixed;
+    bottom: 0;
+}
