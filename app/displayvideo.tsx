@@ -11,7 +11,7 @@ interface DisplayVideoProps {
 }
 
 export default function DisplayVideo({ width, height, name, sources, hasAudio=false }: DisplayVideoProps) {
-    const videoRef = useRef<HTMLVideoElement>(document.createElement("video"))
+    const videoRef = useRef<HTMLVideoElement>(null)
 
     useEffect(() => {
         const observer = new IntersectionObserver((entries, observer) => {
